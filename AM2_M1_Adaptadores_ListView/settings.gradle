@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "AM2_M1_Adaptadores_ListView"

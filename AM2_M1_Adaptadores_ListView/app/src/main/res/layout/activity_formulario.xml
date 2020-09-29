@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formulario"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etnombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombres"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/ettelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        />
+
+    <Button
+        android:id="@+id/btnbuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+
+        />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+
+        />
+
+    <Button
+        android:id="@+id/btneliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+
+        />
+    <Button
+        android:id="@+id/btnlistar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar"
+
+        />
+
+
+
+        <Button
+        android:id="@+id/btnejadapterlist"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Botón Ejemplo adaptador lista personalizada"
+        />
+
+
+
+</LinearLayout>
