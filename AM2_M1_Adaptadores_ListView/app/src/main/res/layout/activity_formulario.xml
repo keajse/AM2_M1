@@ -7,67 +7,118 @@
     tools:context=".formulario"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORMULARIO"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/formulario"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
     <EditText
         android:id="@+id/etnombres"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:hint="Nombres"
         android:inputType="text"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
         />
     <EditText
         android:id="@+id/ettelefono"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:hint="Teléfono"
         android:inputType="text"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
         />
+
+
     <Button
         android:id="@+id/btnguardar"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#34D38E"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
         android:text="Guardar"
         />
 
     <Button
         android:id="@+id/btnbuscar"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#34D38E"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
         android:text="Buscar"
 
         />
 
     <Button
         android:id="@+id/btnactualizar"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#34D38E"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
         android:text="Actualizar"
 
         />
 
     <Button
         android:id="@+id/btneliminar"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#34D38E"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
         android:text="Eliminar"
 
         />
     <Button
         android:id="@+id/btnlistar"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="#34D38E"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
         android:text="Listar"
 
         />
 
 
-
-        <Button
+    <Button
         android:id="@+id/btnejadapterlist"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:text="Botón Ejemplo adaptador lista personalizada"
-        />
-
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#00c3f8"
+        android:gravity="center"
+        android:text="Botón Ejemplo adaptador lista personalizada" />
 
 
 </LinearLayout>
